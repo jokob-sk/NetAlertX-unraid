@@ -5,7 +5,7 @@
 
 Firstly you need to be running unRAID ver 6.0.0 or later, once installed follow the instructions below:
 
-NOTE:
+#### NOTE:
 
 1. Make folders and set permissions:
 
@@ -20,11 +20,10 @@ NOTE:
 
 3. Enjoy
 
-Warning:
+### Warning:
 
-Using tmpfs reduces disk writes and speeds up I/O, but all data stored in memory will be lost on restart.
-
-If you need to keep a persistent, file-based log history, add Log Path to the container:
+*Using tmpfs reduces disk writes and speeds up I/O, but all data stored in memory will be lost on restart.
+If you need to keep a persistent, file-based log history, add* **Log Path** *to the container:*
 
 `/mnt/user/appdata/netalertx/log:/tmp/log`
 
