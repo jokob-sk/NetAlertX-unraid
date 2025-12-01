@@ -12,7 +12,7 @@ Firstly you need to be running unRAID ver 6.0.0 or later, once installed follow 
 
    - `mkdir -p /mnt/user/appdata/netalertx`
    - `chown -R 20211:20211 /mnt/user/appdata/netalertx`
-   - `chmod 755 /mnt/user/appdata/netalertx`
+   - `chmod -R 755 /mnt/user/appdata/netalertx`
 
 2. Install NetAlertX App:
    - Install Community Applications Plugin.
